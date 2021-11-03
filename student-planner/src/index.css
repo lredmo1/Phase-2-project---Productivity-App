@@ -131,7 +131,7 @@ button#passionFormView {
 } 
 
 h3.focusDetailTextFocus {
-  font-family: ELEGANT  Personal use;
+  font-family: cream-DEMO;
   font-size: 30px;
   text-align: center;
   color: rgba(28, 17, 68);
@@ -141,7 +141,7 @@ h3.focusDetailTextFocus {
 }
 
 h3.focusDetailTextGratitude {
-  font-family: ELEGANT  Personal use;
+  font-family: cream-DEMO;
   font-size: 30px;
   text-align: center;
   color: rgba(28, 17, 68);
@@ -285,7 +285,7 @@ Link {
 }
 
 h3#toDoListTitleText {
-  font-family: ELEGANT  Personal use;
+  font-family: cream-DEMO;
   font-size: 30px;
   text-align: center;
   color: rgba(28, 17, 68);
@@ -293,13 +293,13 @@ h3#toDoListTitleText {
 
 .toDoListEntryItemLow {
   font-size: 20px;
-  font-family: SS Nickson One;
+  font-family: cream-DEMO;
   color: rgba(28, 17, 68);
   
 }
 .toDoListEntryItemHigh {
   font-size: 20px;
-  font-family: SS Nickson One;
+  font-family: cream-DEMO;
   color: rgb(240, 25, 97);
 }
 
