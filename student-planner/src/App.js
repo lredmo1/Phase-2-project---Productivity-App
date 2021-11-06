@@ -29,7 +29,7 @@ function App() {
 
   return (
     <div>
-      <BrowserRouter>
+      {/* <BrowserRouter> */}
         <Header />
 
     <div id="focusSection">
@@ -41,7 +41,7 @@ function App() {
               
 
         <ToDoListContainer />
-      </BrowserRouter>
+      {/* </BrowserRouter> */}
     </div>
   )
 }
