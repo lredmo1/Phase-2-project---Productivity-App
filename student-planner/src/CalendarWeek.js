@@ -13,7 +13,7 @@ function CalendarWeek() {
     const [eventClick, setEventClick] = useState(null)
 
     useEffect(() => {
-        fetch(`http://localhost:5000/events`)
+        fetch(`https://proj2-server-app.herokuapp.com/events`)
             .then((response) => response.json())
             .then((data) => {
                 setEvents(data)

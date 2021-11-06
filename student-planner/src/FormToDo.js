@@ -24,7 +24,7 @@ function FormToDo({ listType, handleNewEntry }) {
             listName: listType,
             completed: false
         };
-        fetch(`http://localhost:5000/${listType}/`, {
+        fetch(`https://proj2-server-app.herokuapp.com/${listType}/`, {
             method: "POST",
             headers: {
                 "Content-Type": "application/json",

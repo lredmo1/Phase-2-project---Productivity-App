@@ -16,7 +16,7 @@ export default function PassionContentForm ({form, form : {focus, grateful}, set
             focus: form.focus,
             grateful: form.grateful
         }
-        fetch(`http://localhost:5000/passion/1`, {
+        fetch(`https://proj2-server-app.herokuapp.com/passion/1`, {
             method: "PATCH",
             headers: {
                 "Content-Type": "application/json"

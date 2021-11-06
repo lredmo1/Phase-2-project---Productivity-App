@@ -10,7 +10,7 @@ function ListDetail({ entry, handleDeleteEntry }) {
     function handleDelete(e) {
         const listID = e.target.name
         console.log(listID)
-        fetch(`http://localhost:5000/${listID}/${entry.id}`, {
+        fetch(`https://proj2-server-app.herokuapp.com/${listID}/${entry.id}`, {
             method: 'DELETE',
         })
             .then(resp => resp.json())
@@ -25,7 +25,7 @@ function ListDetail({ entry, handleDeleteEntry }) {
         let status = !completed
         //console.log(status)
         // completeCrossOut()
-        fetch(`http://localhost:5000/${listID}/${entry.id}`, {
+        fetch(`https://proj2-server-app.herokuapp.com/${listID}/${entry.id}`, {
             method: 'PATCH',
             headers: {
                 "Content-Type": "application/json"

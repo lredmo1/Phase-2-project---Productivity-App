@@ -16,7 +16,7 @@ function App() {
   })
 
   useEffect(() => {
-        fetch(`http://localhost:5000/passion`)
+        fetch(`https://proj2-server-app.herokuapp.com/passion`)
         .then (resp => resp.json())
         .then (data => setPassion(data))
   }, [])

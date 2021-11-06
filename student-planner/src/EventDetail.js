@@ -7,7 +7,7 @@ function EventDetail ({eventClick, setEventClick, title, id, start}) {
     const startTime = start.slice(11,19)
     
     function handleDeleteButtonClick () {
-        fetch(`http://localhost:5000/events/${id}`,{
+        fetch(`https://proj2-server-app.herokuapp.com/events/${id}`,{
             method: "DELETE",
             headers: { "Content-Type": "application/json"},   
         })

@@ -30,7 +30,7 @@ function FormCalendar({ listType, handleNewCalendarEntry }) {
             end: `${endDate}T${endTime}`
         };
 
-        fetch(`http://localhost:5000/events`, {
+        fetch(`https://proj2-server-app.herokuapp.com/events`, {
             method: "POST",
             headers: {
                 "Content-Type": "application/json",
